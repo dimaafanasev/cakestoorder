@@ -1,0 +1,42 @@
+.title {
+    order: 1;
+    margin: 0;
+    text-align: center;
+
+    font-family: "Playfair Display", "Arial", "Helvetica", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: .075em;
+    color: #2d2829;
+}
+
+.header__title {
+    padding: 0 40px;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .title {
+        max-width: 282px;
+        text-align: left;
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .header__title {
+        padding: 0;
+    }
+}
+
+@media (min-width: 1366px) {
+    .title {
+        max-width: 370px;
+        font-size: 79px;
+        line-height: 70px;
+    }
+    .header__title {
+        margin-bottom: 20px;
+    }
+}

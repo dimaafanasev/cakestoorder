@@ -1,0 +1,40 @@
+
+.subtitle {
+    order: 2;
+    display: block;
+    text-align: center;
+
+    font-family: "Intro Script R H2 Base", "Arial", "Helvetica", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    color: #32313d;
+}
+
+.header__subtitle {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+    .subtitle {
+        max-width: 282px;
+        text-align: left;
+        font-size: 36px;
+    }
+    .header__subtitle {
+        margin-bottom: 55px;
+    }
+}
+
+@media (min-width: 768px) {
+    .subtitle {
+        max-width: 370px;
+        font-size: 41px;
+    }
+    .header__subtitle {
+        margin-bottom: 60px;
+    }
+}
+
