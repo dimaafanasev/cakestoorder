@@ -51,13 +51,13 @@
             </div>
             <div class="navigation__section-menu">
                 <div class="section-content">
-                    <ul id="navigation-list" class="navigation__list">
-                        <li class="navigation__items"><a class="navigation__links" href="#">Наши торты</a></li>
-                        <li class="navigation__items"><a class="navigation__links" href="#">Индивидуальный заказ</a></li>
-                        <li class="navigation__items"><a class="navigation__links" href="#">Отзывы</a></li>
-                        <li class="navigation__items"><a class="navigation__links" href="#">О нас</a></li>
-                        <li class="navigation__items"><a class="navigation__links" href="#">Как заказать</a></li>
-                        <li class="navigation__items"><a class="navigation__links" href="#">Контакты</a></li>
+                    <ul id="js-nav-list" class="navigation__list" data-navigation >
+                        <li class="navigation__items"><a class="navigation__links" data-nav-items href="#">Наши торты</a></li>
+                        <li class="navigation__items"><a class="navigation__links" data-nav-items href="#">Индивидуальный заказ</a></li>
+                        <li class="navigation__items"><a class="navigation__links" data-nav-items href="#">Отзывы</a></li>
+                        <li class="navigation__items"><a class="navigation__links" data-nav-items href="#">О нас</a></li>
+                        <li class="navigation__items"><a class="navigation__links" data-nav-items href="#">Как заказать</a></li>
+                        <li class="navigation__items"><a class="navigation__links" data-nav-items href="#">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -83,6 +83,7 @@
         </div>
     </header>
 
-    <script src="../js/navigation-top.js"></script>
+    <script src="../js/focusManager.js"></script>
+    <script src="../js/headerNavigation.js"></script>
 </body>
 </html>
