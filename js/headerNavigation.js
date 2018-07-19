@@ -24,10 +24,12 @@ window.onload = function() {
     buttonNavigation.addEventListener('keydown', function(e) {
         if(e.keyCode === 13 || e.keyCode === 32) {
             if (checkButtonNavigation) {
+                e.preventDefault();
                 checkButtonNavigation = false;
                 menuListBlock.classList.add("navigation__section-menu_hidden");
                 focusManager.release(buttonNavigation);
             } else {
+                e.preventDefault();
                 checkButtonNavigation = true;
                 menuListBlock.classList.remove("navigation__section-menu_hidden");
                 focusManager.capture(navigationSection);
@@ -37,6 +39,7 @@ window.onload = function() {
     window.addEventListener("keydown", function(e) {
         if(e.keyCode === 27) {
             if (checkButtonNavigation) {
+                e.preventDefault();
                 checkButtonNavigation = false;
                 menuListBlock.classList.add("navigation__section-menu_hidden");
                 focusManager.release(buttonNavigation);
