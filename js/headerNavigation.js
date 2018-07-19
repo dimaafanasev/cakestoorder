@@ -22,7 +22,6 @@ window.onload = function() {
         }
     });
     buttonNavigation.addEventListener('keydown', function(e) {
-        e.preventDefault();
         if(e.keyCode === 13 || e.keyCode === 32) {
             if (checkButtonNavigation) {
                 checkButtonNavigation = false;
@@ -37,7 +36,6 @@ window.onload = function() {
     });
     window.addEventListener("keydown", function(e) {
         if(e.keyCode === 27) {
-            e.preventDefault();
             if (checkButtonNavigation) {
                 checkButtonNavigation = false;
                 menuListBlock.classList.add("navigation__section-menu_hidden");
