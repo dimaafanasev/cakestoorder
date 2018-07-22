@@ -50,7 +50,6 @@
     left: 0;
     width: 40px;
     height: 40px;
-    cursor: pointer;
 }
 
 .navigation__button_hidden {
@@ -66,16 +65,20 @@
     background-color: #000;
     margin-top: -1px;
     margin-left: -9px;
+    transition: all 0ms 300ms;
 }
 
 .burger-first {
     margin-top: -7px;
+    transition: margin-top 300ms 300ms,
+    transform 300ms;
 }
 
 .burger-last {
     margin-top: 5px;
+    transition: margin-top 300ms 300ms,
+    transform 300ms;
 }
-
 
 .navigation__block-phone-number {
     position: absolute;
@@ -221,4 +224,23 @@
         position: static;
         text-align: right;
     }
+}
+
+.navigation__button_animate > .burger-center {
+    display: none;
+}
+
+.navigation__button_animate > .burger-first,
+.navigation__button_animate > .burger-last  {
+    margin-top: 0;
+    transition: margin-top 300ms,
+    transform 300ms 300ms;
+}
+
+.navigation__button_animate > .burger-first {
+    transform: rotate(-45deg);
+}
+
+.navigation__button_animate > .burger-last  {
+    transform: rotate(45deg);
 }

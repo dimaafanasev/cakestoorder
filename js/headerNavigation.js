@@ -27,6 +27,7 @@ window.onload = function() {
             e.preventDefault();
             checkButtonNavigation = false;
             menuListBlock.classList.add("navigation__section-menu_hidden");
+            buttonNavigation.classList.remove("navigation__button_animate");
             if (checkFocus) {
                 focusManager.release(buttonNavigation);
             }
@@ -34,6 +35,7 @@ window.onload = function() {
             e.preventDefault();
             checkButtonNavigation = true;
             menuListBlock.classList.remove("navigation__section-menu_hidden");
+            buttonNavigation.classList.add("navigation__button_animate");
             if (checkFocus) {
                 focusManager.capture(navigationSection);
             }
