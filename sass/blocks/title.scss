@@ -26,6 +26,10 @@
     margin-bottom: 30px;
 }
 
+.individual-order__title {
+    margin-bottom: 7px;
+}
+
 @media (min-width: 768px) {
     .title {
         max-width: 282px;
@@ -61,4 +65,9 @@
         font-size: 40px;
         line-height: 1.2em;
     }
+}
+
+.title_align_center {
+    max-width: 100%;
+    text-align: center;
 }
