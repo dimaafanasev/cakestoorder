@@ -2,6 +2,7 @@
     display: block;
     max-width: 155px;
     background-color: #f50049;
+    border: none;
     border-radius: 20px;
     padding: 10px 35px;
     text-align: center;
@@ -28,10 +29,23 @@
     margin: 0 auto;
 }
 
+.button__small {
+    max-width: none;
+    width: 180px;
+    margin: 0 auto;
+}
+
+
 @media (min-width: 768px) {
     .header__button {
         margin: 0;
         margin-bottom: 145px;
+    }
+    .button__small {
+        margin: 0;
+    }
+    .ind-order__filling-block__button {
+        width: 135px;
     }
 }
 
