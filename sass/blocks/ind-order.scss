@@ -31,6 +31,7 @@
 .ind-order__title_size_up {
     padding-right: 10px;
     font-size: 30px;
+    line-height: 1.2em;
 }
 
 .ind-order__sl-image {
@@ -127,7 +128,6 @@
     }
     .ind-order__title_size_up {
         font-size: 36px;
-        line-height: 1.2em;
     }
     .ind-order__slyder-block {
         position: relative;
@@ -158,5 +158,51 @@
         margin-bottom: 25;
         font-size: 20px;
         text-align: left;
+    }
+}
+
+@media (min-width: 1366px) {
+    .ind-order__step-item {
+        margin-bottom: 35px;
+        padding: 80px;
+    }
+    .ind-order__step-title {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .ind-order__title_size_up {
+        font-size: 60px;
+    }
+    .ind-order__slyder-block {
+        padding-left: 218px;
+        padding-right: 195px;
+    }
+    .ind-order__slyder-image-block {
+        width: 344px;
+        height: 390px;
+    }
+
+    .ind-order__filling-block-list-wrapper {
+        width: 288px;
+        padding-top: 70px;
+        margin-left: 45px;
+    }
+    .ind-order__filling-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .ind-order__filling-desc {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    .ind-order_filling_price {
+        margin-bottom: 50px;
+        font-size: 22px;
+    }
+    .ind-order__sl-image {
+        height: 390px;
+    }
+    .ind-order__slyder-image-block {
+        width: 384px;
     }
 }
