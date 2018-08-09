@@ -51,3 +51,10 @@
         display: block;
     }
 }
+
+@media (min-width: 1366px) {
+    .arrow {
+        box-shadow: 0px 0px 0px 0px transparent;
+        background-color: transparent;
+    }
+}
