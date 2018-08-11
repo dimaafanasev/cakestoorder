@@ -219,7 +219,7 @@
         margin-bottom: 0;
         font-size: 18px;
         line-height: 18px;
-        max-width: 135px;
+        max-width: 95px;
     }
     .ind-order__title_size_up {
         font-size: 36px;
@@ -253,6 +253,30 @@
         margin-bottom: 25;
         font-size: 20px;
         text-align: left;
+    }
+    // SIZE
+    .ind-order__size-list {
+        @include list-reset();
+        width: 638px;
+        justify-content: space-between;
+    }
+    .ind-order__size-item {
+        width: auto;
+    }
+    .ind-order__size-content-image-block {
+        width: auto;
+        padding-bottom: 25px;
+        align-items: flex-end;
+    }
+    .ind-order__size-content-info {
+        text-align: left;
+        margin: 0;
+    }
+    .ind-order-size__button {
+        display: none;
+    }
+    .ind-order__size-content {
+        overflow: visible;
     }
 }
 
