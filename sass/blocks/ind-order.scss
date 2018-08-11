@@ -258,7 +258,6 @@
     }
     // SIZE
     .ind-order__size-list {
-        @include list-reset();
         width: 638px;
         justify-content: space-between;
     }
@@ -325,5 +324,34 @@
     }
     .ind-order__slyder-image-block {
         width: 384px;
+    }
+    // SIZE
+    .ind-order__size-content-image-button_size_1kg {
+        width: 130px;
+        height: 130px;
+        background-image: url("../img/order_size_1_large.png");
+    }
+    .ind-order__size-content-image-button_size_2kg {
+        width: 180px;
+        height: 180px;
+        background-image: url("../img/order_size_2_large.png");
+    }
+    .ind-order__size-content-image-button_size_5kg {
+        width: 200px;
+        height: 200px;
+        background-image: url("../img/order_size_3_large.png");
+    }
+    .ind-order__size-content-image-button_size_8kg {
+        width: 230px;
+        height: 230px;
+        background-image: url("../img/order_size_4_large.png");
+    }
+    .ind-order__size-content-info {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .ind-order__size-list {
+        width: 904px;
+        padding: 100px 0 0 100px;
     }
 }
