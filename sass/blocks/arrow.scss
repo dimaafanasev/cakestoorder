@@ -50,6 +50,12 @@
     .arrow {
         display: block;
     }
+    .ind-order-decor__arrow_prev {
+        left: 100px;
+    }
+    .ind-order-decor__arrow_next {
+        right: -10px;
+    }
 }
 
 @media (min-width: 1366px) {
