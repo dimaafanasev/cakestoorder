@@ -212,6 +212,11 @@
 
 // DECOR
 
+.ind-order__decor-content {
+    position: relative;
+    margin-bottom: 35px;
+}
+
 .ind-order__slyder-block-decor {
     position: relative;
 }
@@ -348,7 +353,42 @@
     .ind-order__size-content {
         overflow: visible;
     }
+    // DECOR
+    .ind-order__decor-name {
+        margin-bottom: 5px;
+    }
+    .ind-order__decor-price {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .ind-order__step-item_cakes {
+        background-image: url("../img/ind_order_decor_cakes.jpg");
+        background-repeat: no-repeat;
+        background-position: 18px 123px;
+    }
+    .ind-order__decor-list {
+        width: 1125px;
+    }
+    .ind-order__decor-list-block {
+        width: 445px;
+        margin-left: 150px;
+    }
+    .ind-order__decor-list-item {
+        width: 225px;
+    }
+    .ind-order__decor-image-sl {
+        width: 196px;
+        height: 264px;
+        box-shadow: 0px 7px 12.74px 0.26px rgba(0, 0, 0, 0.05);
+        transition: box-shadow .8s ease;
+    }
+    .ind-order__decor-image-sl:hover,
+    .ind-order__decor-image-sl:focus {
+        box-shadow: 0px 6px 9.7px 0.3px rgba(0, 0, 0, 0.14);
+        transition: box-shadow .8s ease;
+    }
 }
+
 
 @media (min-width: 1366px) {
     .ind-order__step-item {
