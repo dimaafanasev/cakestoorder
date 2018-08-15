@@ -35,6 +35,12 @@
     margin: 0 auto;
 }
 
+.button__submit {
+    max-width: none;
+    width: 230px;
+    margin: 0 auto;
+}
+
 @media (min-width: 768px) {
     .header__button {
         margin: 0;
@@ -45,6 +51,15 @@
     }
     .ind-order__filling-block__button {
         width: 135px;
+    }
+    .ind-order__decor-button {
+        display: none;
+    }
+    .button__submit {
+        width: 160px;
+        max-height: 43px;
+        font-size: 10px;
+        line-height: 27px;
     }
 }
 
