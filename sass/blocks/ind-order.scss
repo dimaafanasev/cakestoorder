@@ -465,3 +465,19 @@
         padding: 100px 0 0 100px;
     }
 }
+
+.no-js .ind-order__step-title,
+.no-js .ind-order__step-item_cakes,
+.no-js .ind-order__step-item,
+.no-js .ind-order__decor-content {
+    display: none;
+}
+
+.no-js .ind-order__step-item_cakes {
+    background-image: none;
+    display: block;
+}
+
+.no-js .order-form__legend {
+    margin-bottom: 30px;
+}
