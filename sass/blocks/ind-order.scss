@@ -464,6 +464,35 @@
         width: 904px;
         padding: 100px 0 0 100px;
     }
+    // DECOR
+    .ind-order__decor-name {
+        margin-bottom: 5px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ind-order__decor-price {
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .ind-order__step-item_cakes {
+        background-image: url("../img/ind_order_decor_cakes_large.jpg");
+        background-position: 50px 206px;
+    }
+    .ind-order__decor-list {
+        width: 1780px;
+    }
+    .ind-order__decor-list-block {
+        width: 713px;
+        margin-left: 325px;
+    }
+    .ind-order__decor-list-item {
+        width: 356px;
+    }
+    .ind-order__decor-image-sl {
+        width: 321px;
+        height: 431px;
+    }
 }
 
 .no-js .ind-order__step-title,
