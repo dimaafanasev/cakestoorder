@@ -78,3 +78,26 @@
         font-size: 12px;
     }
 }
+
+@media (min-width: 1366px) {
+    .order-form__legend {
+        margin-bottom: 20px;
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+    .order-form__list {
+        width: 790px;
+    }
+    .order-form__label {
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+    .order-form__select {
+        font-size: 18px;
+        max-width: 242px;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid #c1b0af;
+        padding: 0 15px;
+    }
+}
