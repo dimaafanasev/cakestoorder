@@ -85,6 +85,10 @@
     .review {
         padding-top: 46px;
         padding-bottom: 25px;
+        background-image: url("../img/review_decor.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
     }
     .review__cite {
         font-size: 16px;
@@ -133,6 +137,7 @@
     .review {
         padding-top: 110px;
         padding-bottom: 130px;
+        background-image: url("../img/review_decor_large.png");
     }
     .review__cite {
         font-size: 27px;
