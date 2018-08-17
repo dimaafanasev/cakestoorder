@@ -87,7 +87,6 @@
         padding-bottom: 25px;
     }
     .review__cite {
-        display: block;
         font-size: 16px;
     }
     .review__position {
@@ -127,5 +126,41 @@
     }
     .review__arrow_next {
         right: 71px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .review {
+        padding-top: 110px;
+        padding-bottom: 130px;
+    }
+    .review__cite {
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+    .review__position {
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .review__review-text {
+        font-size: 19px;
+    }
+    .review__block-image {
+        width: 209px;
+        height: 208px;
+        margin: 0 auto;
+    }
+    .review__list {
+        width: 674px;
+        margin: 0 auto;
+    }
+    .review__blockquote {
+        width: 370px;
+    }
+    .review__arrow_prev {
+        left: 195px;
+    }
+    .review__arrow_next {
+        right: 195px;
     }
 }
