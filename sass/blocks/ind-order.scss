@@ -1,5 +1,5 @@
 .ind-order {
-    padding: 25px 0;
+    padding-top: 25px;
 }
 
 .ind-order__step-item {
@@ -493,6 +493,10 @@
         width: 321px;
         height: 431px;
     }
+}
+
+.ind-order__step-item_cakes {
+    margin-bottom: 0;
 }
 
 .no-js .ind-order__step-title,
