@@ -1,0 +1,118 @@
+.advantages {
+    padding-top: 25px;
+}
+
+.advantages__list-block {
+    background-color: #fff;
+}
+
+.advantages__list {
+    @include list-reset();
+    padding-bottom: 17px;
+}
+
+.advantages__item {
+    position: relative;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.advantages__item_icon_ingredients::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/icon_ingredients_small_large.png");
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 61px;
+    top: 10px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.advantages__item_icon_cake::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/icon_cake_small_large.png");
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 50px;
+    top: 20px;
+    left: 50%;
+    margin-left: -42px;
+}
+
+.advantages__item-title {
+    margin-bottom: 6px;
+
+    font-family: "Circe", "Arial", "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.advantages__item-text {
+    margin: 0;
+    padding: 0 10px;
+
+    font-family: "Circe", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.advantages__care-block {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 172px;
+
+    background-image: url("../img/advantages_care_bg_small.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.advantages__care-title {
+    display: block;
+    margin-bottom: 6px;
+
+    font-family: "Playfair Display", "Arial", "Helvetica", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 33px;
+    letter-spacing: 0;
+    color: #2d2829;
+}
+
+.advantages__care-subtitle {
+    display: block;
+    margin-bottom: 2px;
+
+    font-family: "Intro Script R H2 Base", "Arial", "Helvetica", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    color: #32313d;
+}
+
+.advantages__care-text {
+    margin: 0;
+    padding-right: 26px;
+
+    font-family: "Circe", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    color: #000;
+}
+
+
