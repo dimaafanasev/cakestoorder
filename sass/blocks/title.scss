@@ -38,6 +38,10 @@
     margin-bottom: 20px;
 }
 
+.advantages__title {
+    margin-bottom: 5px;
+}
+
 @media (min-width: 768px) {
     .title {
         max-width: 282px;
@@ -64,6 +68,11 @@
         text-align: center;
         max-width: none;
     }
+    .advantages__title {
+        margin-bottom: 7px;
+        max-width: none;
+        text-align: center;
+    }
 }
 
 @media (min-width: 1366px) {
@@ -88,5 +97,8 @@
     .review__title {
         margin-bottom: 52px;
         max-width: none;
+    }
+    .advantages__title {
+        margin-bottom: 24px;
     }
 }
