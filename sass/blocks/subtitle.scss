@@ -21,6 +21,10 @@
     margin-bottom: 20px;
 }
 
+.advantages__subtitle {
+    margin-bottom: 15px;
+}
+
 @media (min-width: 768px) {
     .subtitle {
         max-width: 282px;
@@ -34,6 +38,12 @@
         max-width: none;
         margin-bottom: 30px;
         text-align: center;
+    }
+    .advantages__subtitle {
+        margin-bottom: 0;
+        max-width: none;
+        text-align: center;
+        font-size: 26px;
     }
 }
 
