@@ -535,21 +535,29 @@
                 <h2 class="title title_size_h2 about-us__title">О нас</h2>
                 <div class="about-us__content">
                     <div class="about-us__author-image">
-
+                        <picture class="review__image">
+                            <source media="(min-width: 1366px)" srcset="../img/about_us_large.jpg 1x">
+                            <source media="(min-width: 768px)" srcset="../img/about_us_medium.jpg 1x">
+                            <img src="../img/about_us_small.jpg" alt="Фото павла контдитера">
+                        </picture>
                     </div>
-                    <ul class="social">
-                        <li class="social__item"><a class="social__link" href="#"></a></li>
-                        <li class="social__item"><a class="social__link" href="#"></a></li>
-                        <li class="social__item"><a class="social__link" href="#"></a></li>
+                    <ul class="social social_hidden_medium">
+                        <li class="social__item"><a class="social__link social__link_inst" href="#"></a></li>
+                        <li class="social__item"><a class="social__link social__link_vk" href="#"></a></li>
+                        <li class="social__item"><a class="social__link social__link_tw" href="#"></a></li>
                     </ul>
                     <div class="about-us__text-wrapper">
                         <span class="about-us__text-title">О кондитере</span>
                         <b class="about-us__tagline">Кондитер – как призвание</b>
                         <p class="about-us__desc">Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер.</p>
-                    </div>
-                    <div class="about-us__text-wrapper">
+
                         <b class="about-us__tagline">Принцип – натуральные ингредиенты</b>
                         <p class="about-us__desc">Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.</p>
+                        <ul class="social social_show_medium">
+                            <li class="social__item"><a class="social__link social__link_inst" href="#"></a></li>
+                            <li class="social__item"><a class="social__link social__link_vk" href="#"></a></li>
+                            <li class="social__item"><a class="social__link social__link_tw" href="#"></a></li>
+                        </ul>
                     </div>
                     <div class="about-us__quote-block">
                         <p class="about-us__quote">Я за простые рецепты. В Италии это называют cucina povera: когда обычные ингредиенты превращаются в божественное блюдо.</p>
