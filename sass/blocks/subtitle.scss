@@ -13,6 +13,10 @@
     color: #32313d;
 }
 
+.subtitle_align_left {
+    text-align: left;
+}
+
 .header__subtitle {
     margin-bottom: 25px;
 }
@@ -23,6 +27,10 @@
 
 .advantages__subtitle {
     margin-bottom: 15px;
+}
+
+.contact__subtitle {
+    margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -45,6 +53,11 @@
         text-align: center;
         font-size: 26px;
     }
+    .contact__subtitle {
+        margin-left: 28px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 1366px) {
@@ -61,6 +74,11 @@
     .advantages__subtitle {
         max-width: none;
         text-align: center;
+        font-size: 35px;
+    }
+    .contact__subtitle {
+        margin-left: 0;
+        margin-bottom: 20px;
         font-size: 35px;
     }
 }
