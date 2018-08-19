@@ -50,6 +50,10 @@
     margin-bottom: 30px;
 }
 
+.contact__title {
+    margin-bottom: 7px;
+}
+
 @media (min-width: 768px) {
     .title {
         max-width: 282px;
@@ -84,6 +88,9 @@
     .info-order__title {
         margin-left: 21.4714rem;
         max-width: none;
+    }
+    .contact__title {
+        margin-left: 28px;
     }
 }
 
@@ -122,5 +129,8 @@
         margin-bottom: 38px;
         margin-left: 64.91%;
         max-width: none;
+    }
+    .contact__title {
+        margin-left: 0px;
     }
 }
