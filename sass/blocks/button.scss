@@ -41,6 +41,10 @@
     margin: 0 auto;
 }
 
+.contact__button {
+    margin-bottom: 30px;
+}
+
 @media (min-width: 768px) {
     .header__button {
         margin: 0;
@@ -60,6 +64,9 @@
         max-height: 43px;
         font-size: 10px;
         line-height: 27px;
+    }
+    .contact__button {
+        width: 160px;
     }
 }
 
