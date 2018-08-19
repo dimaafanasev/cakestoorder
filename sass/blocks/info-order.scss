@@ -1,5 +1,5 @@
 .info-order {
-
+    position: relative;
     background-color: #e3353d;
     padding-bottom: 125px;
     padding-top: 35px;
@@ -54,4 +54,58 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0;
+}
+
+@media (min-width: 768px) {
+    .info-order {
+        padding-bottom: 0;
+        padding-top: 50px;
+        min-height: 420px;
+        background-image: none;
+        overflow: hidden;
+    }
+    .info-order__list {
+        width: 270px;
+        padding: 0;
+        margin-left: 23.5rem;
+    }
+    .info-order__item {
+        margin-bottom: 32px;
+    }
+    .info-order__list-title {
+        font-size: 15px;
+        line-height: 27px;
+        letter-spacing: .01em;
+    }
+    .info-order__item_number::before {
+        top: -12px;
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .info-order {
+        padding-top: 125px;
+        min-height: 579px;
+    }
+    .info-order__list {
+        margin-left: 64.91%;
+        padding-left: 60px;
+        width: 380px;
+    }
+    .info-order__item {
+        margin-bottom: 35px;
+    }
+    .info-order__list-title {
+        font-size: 21px;
+    }
+    .info-order__list-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .info-order__item_number::before {
+        top: -32px;
+        left: -55px;
+        font-size: 65px;
+    }
 }
