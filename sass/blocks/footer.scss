@@ -1,0 +1,103 @@
+.footer {
+    background-color: #898989;
+    color: #fff;
+    padding-top: 47px;
+}
+
+.footer__title {
+    margin: 0;
+    margin-bottom: 22px;
+
+    font-family: "Playfair Display", "Arial", "Helvetica", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 44px;
+    letter-spacing: .005em;
+}
+
+.footer__menu-list {
+    @include list-reset();
+    margin-bottom: 30px;
+}
+
+.footer__menu-item {
+    margin-bottom: 20px;
+}
+
+.footer__menu-link {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus {
+    text-decoration: underline;
+}
+
+.footer__social-list {
+    @include list-reset();
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.footer__social-item {
+    margin-right: 18px;
+}
+
+.footer__social-link {
+    display: block;
+    opacity: .4;
+    transition: opacity .8s ease;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+    opacity: 1;
+    transition: opacity .8s ease;
+}
+
+.footer__social-link_ins {
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/footer_icon_ins.svg");
+    background-repeat: no-repeat;
+}
+
+.footer__social-link_vk {
+    width: 31px;
+    height: 31px;
+    background-image: url("../img/footer_icon_vk.svg");
+    background-repeat: no-repeat;
+    margin-bottom: -2px;
+}
+
+.footer__line {
+    opacity: .1;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.footer__copy {
+    margin-bottom: 8px;
+    display: block;
+
+    color: inherit;
+    font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: .004em;
+    color: rgba(255, 255, 255, .5);
+}
+
