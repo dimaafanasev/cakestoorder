@@ -21,6 +21,7 @@
     display: block;
     width: inherit;
     height: inherit;
+    overflow: hidden;
 }
 
 .our-cakes__description-wrapper {
@@ -155,7 +156,7 @@
     .our-cakes__items {
         width: 483px;
         height: 305px;
-        margin-bottom: 45px;
+        margin-bottom: 42px;
     }
     .our-cakes__image-bg {
         width: 483px;
@@ -163,7 +164,7 @@
     }
     .our-cakes__items__size_large {
         width: 692px;
-        height: 655px;
+        height: 652px;
     }
     .our-cakes__right-arrow {
         display: inline;
