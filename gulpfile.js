@@ -12,6 +12,7 @@ var plumber = require('gulp-plumber');
 var autoprefixer = require("autoprefixer");
 var del = require("del");
 var run =require("run-sequence");
+var imagemin =require("gulp-imagemin");
 
 gulp.task("html", function () {
     return gulp.src("*.html")
@@ -57,6 +58,16 @@ gulp.task("serv", function() {
 
 gulp.task("clean", function () {
     return del("build");
+});
+
+gulp.task("images", function () {
+    return gulp.src("img/**/*.{png,jpg,svg}")
+        .pipe(imagemin([
+        imagemin.optipng({optimizationLevel: 3}),
+        imagemin.jpegtran({progressive: true}),
+        imagemin.svgo()
+        ]))
+    .pipe(gulp.dest("img"));
 });
 
 gulp.task("build", function (done) {
