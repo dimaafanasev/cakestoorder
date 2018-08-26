@@ -11,6 +11,7 @@ var include = require("posthtml-include");
 var plumber = require('gulp-plumber');
 var autoprefixer = require("autoprefixer");
 var del = require("del");
+var run =require("run-sequence");
 
 gulp.task("html", function () {
     return gulp.src("*.html")
@@ -56,4 +57,14 @@ gulp.task("serv", function() {
 
 gulp.task("clean", function () {
     return del("build");
-})
+});
+
+gulp.task("build", function (done) {
+    run(
+        "clean",
+        "copy",
+        "style",
+        "html",
+        done
+    );
+});
