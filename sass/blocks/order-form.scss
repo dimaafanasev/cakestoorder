@@ -42,8 +42,13 @@
     color: #f50049;
 }
 
+.order-form__select::-ms-expand {
+    display: none;
+}
+
 .order-form__select {
     -webkit-appearance: none;
+    -moz-appearance: none;
     background: none;
     padding: 0;
     border: none;
